@@ -12,7 +12,7 @@ A paper list of natural/color image segmentation.
 ## Table of Contents
 - [Datasets](https://github.com/Yangzhangcst/Natural-color-image-segmentation/blob/master/README.md#Datasets)
 - [Metrics](https://github.com/Yangzhangcst/Natural-color-image-segmentation/blob/master/README.md#Metrics)
-- [Performance tables](https://github.com/Yangzhangcst/Natural-color-image-segmentation/blob/master/README.md#Performance-tablese)
+- [Performance tables](https://github.com/Yangzhangcst/Natural-color-image-segmentation/blob/master/README.md#Performance-tables)
 - [Paper list](https://github.com/Yangzhangcst/Natural-color-image-segmentation/blob/master/README.md#paper-list)
 
 ##
