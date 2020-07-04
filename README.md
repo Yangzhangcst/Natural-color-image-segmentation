@@ -1,11 +1,11 @@
 # Natural/color image segmentation
 A paper list of natural/color image segmentation.
 
-*Last updated: 2020/03/28
+*Last updated: 2020/07/04
 
 #### Update log
-*2020/march* - update all of recent papers and make some diagram about history of natural/color image segmentation.  
-
+*2020/March* - update all of recent papers and make some diagram about history of natural/color image segmentation.  
+*2020/July* - update some recent papers and codes.  
 
 ##
 
@@ -99,7 +99,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **CCP-LAM** | 0.8404 | 1.5715 | 0.1635 | 10.20 | 0.68 | | ICCV | 2015 |
 | **SASFinal** | 0.8437 | 1.4977 |  |  | 0.6301 | | ICIP | 2014 |
 | **CCP-LAS** | 0.8442 | 1.5871 | 0.1582 | 10.4600 | 0.68 | | ICCV | 2015 |
-| [**AASP-GRAPH**](https://github.com/Yangzhangcst/AASP-Graph) | 0.8446 | 1.6485 | 0.1737 | 14.6416 |  | | ICME | 2019 |
+| **AASP-GRAPH** | 0.8446 | 1.6485 | 0.1737 | 14.6416 |  | | ICME | 2019 |
 | **EA-Graph** | 0.8459 | 1.6774 | 0.1845 | 11.2638 | | | IEICE-TIS | 2019 |
 | **SHST** | 0.8470 | 1.4500 | 0.1470 | 18.29 | | | IVCNZ | 2016 |
 | **CCM** | 0.8500 | 1.6300 | 0.1790 | 12.30 | | | ICIP | 2014 |
@@ -218,13 +218,13 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[UHIS_FEM]** Yin, S., et al. (2017). "Unsupervised hierarchical image segmentation through fuzzy entropy maximization." **Pattern Recognition** 68: 245-259.
 - **[CDS]** Fu, X.,et al. (2017). "Image segmentation using contour, surface, and depth cues." **IEEE International Conference on Image Processing**: 81-85.
 - **[HVAA]** Lee, H. S. and Y. Hwan Kim (2018). Human visual attention analysis-based image segmentation using Color Histogram. **International SoC Design Conference (ISOCC)**: 76-77.
-- **[FRFCM]** Lei, T., et al. (2018). "Significantly fast and robust fuzzy C-means clustering algorithm based on morphological reconstruction and membership filtering." **IEEE Transactions on Fuzzy Systems** 26(5): 3027-3041.
+- **[FRFCM]** Lei, T., et al. (2018). "Significantly fast and robust fuzzy C-means clustering algorithm based on morphological reconstruction and membership filtering." **IEEE Transactions on Fuzzy Systems** 26(5): 3027-3041. [code](https://github.com/jiaxhsust/Significantly-Fast-and-Robust-FCM-Based-on-Morphological-Reconstruction-and-Membership-Filtering)
 - **[H\_+R\_Better]** Li, K., et al. (2018). "Iterative image segmentation with feature driven heuristic four-color labeling." **Pattern Recognition** 76: 69-79.
 - **[2DNLMeKGSA]** Mittal, H. and M. Saraswat (2018). "An optimum multi-level image thresholding segmentation using non-local means 2D histogram and exponential Kbest gravitational search algorithm." **Engineering Applications of Artificial Intelligence** 71: 226-235.
 - **[AMR]** Lei, T., et al. (2019). "Adaptive morphological reconstruction for seeded image segmentation." **IEEE Transactions Image Processing** 28(11): 5510-5523.
 - **[SFFCM]** Lei, T., et al. (2019). "Superpixel-based fast fuzzy C-means clustering for color image segmentation." **IEEE Transactions on Fuzzy Systems** 27(9): 1753-1766.
 - **[EA-GRAPH]** Sun, G., et al. (2019). "An enhanced affinity graph for image segmentation." **IEICE Transactions on Information and Systems** E102.D(5): 1073-1080.
-- **[AASP-GRAPH]** Zhang, Y., et al. (2019).  "An adaptive affinity graph with subspace pursuit for natural image segmentation,"  **IEEE International Conference on Multimedia and Expo**: 802-807.
+- **[AASP-GRAPH]** Zhang, Y., et al. (2019).  "An adaptive affinity graph with subspace pursuit for natural image segmentation,"  **IEEE International Conference on Multimedia and Expo**: 802-807. [code](https://github.com/Yangzhangcst/AASP-Graph)
 
 ##
 
