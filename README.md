@@ -165,21 +165,21 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 
 ## Paper list
 
-- **[Ncut]** Jianbo, S. and J. Malik (2000). "Normalized cuts and image segmentation." **IEEE Transactions on Pattern Analysis and Machine Intelligence** 22(8): 888-905.
+- **[Ncut]** Jianbo, S. and J. Malik (2000). "Normalized cuts and image segmentation." **IEEE Transactions on Pattern Analysis and Machine Intelligence** 22(8): 888-905. [**[code]**](https://www.cis.upenn.edu/~jshi/software/)
 - **[JSEG]** Deng, Y. and B. S. Manjunath (2001). "Unsupervised segmentation of color-texture regions in images and video." **IEEE Transactions on Pattern Analysis and Machine Intelligence** 23(8): 800-810.
 - **[Meanshift]** Comaniciu, D. and P. Meer (2002). "Mean shift: a robust approach toward feature space analysis." **IEEE Transactions on Pattern Analysis and Machine Intelligence** 24(5): 603-619.
-- **[FH]** Felzenszwalb, P. F. and D. P. Huttenlocher (2004). "Efficient graph-based image segmentation." **International Journal of Computer Vision** 59(2): 167-181.
+- **[FH]** Felzenszwalb, P. F. and D. P. Huttenlocher (2004). "Efficient graph-based image segmentation." **International Journal of Computer Vision** 59(2): 167-181. [**[code]**](http://cs.brown.edu/people/pfelzens/segment/)
 - **[MNCut]** Cour, T., et al. (2005). Spectral segmentation with multiscale graph decomposition. **IEEE Conference on Computer Vision and Pattern Recognition** 1124-1131.
 - **[Canny-UCM]** Arbelaez, P. (2006). Boundary extraction in natural images using ultra-metric contour maps. **IEEE Conference on Computer Vision and Pattern Recognition Workshop**: 182-182.
 - **[gPb-Hoiem]** Hoiem, D., et al. (2007). "Recovering surface layout from an Image." **International Journal of Computer Vision** 75: 151–172.
 - **[NTP]** Jingdong, W., et al. (2008). Normalized tree partitioning for image segmentation. **IEEE Conference on Computer Vision and Pattern Recognition**: 1-8.
-- **[Quickshift]** Vedaldi, A. and S. Soatto (2008). Quick shift and kernel methods for mode seeking. **European Conference on Computer Vision**: 705-718.
-- **[CTM]** Yang, A. Y., et al. (2008). "Unsupervised segmentation of natural images via lossy data compression." **Computer Vision and Image Understanding** 110(2): 212-225.
+- **[Quickshift]** Vedaldi, A. and S. Soatto (2008). Quick shift and kernel methods for mode seeking. **European Conference on Computer Vision**: 705-718. [**[code]**](http://www.vlfeat.org/overview/quickshift.html)
+- **[CTM]** Yang, A. Y., et al. (2008). "Unsupervised segmentation of natural images via lossy data compression." **Computer Vision and Image Understanding** 110(2): 212-225.  [**[code]**](http://perception.csl.uiuc.edu/coding/image_segmentation/)
 - **[SDTV]** Donoser, M., et al. (2009). Saliency driven total variation segmentation. **IEEE International Conference on Computer Vision**: 817-824.
 - **[PRIF]** Mignotte, M. (2010). "A label field fusion Bayesian model and its penalized maximum rand estimator for image segmentation." **IEEE Transactions Image Processing** 19(6): 1610-1624.
 - **[SuperParsing]** Tighe, J. and S. Lazebnik (2010). SuperParsing: Scalable nonparametric image parsing with superpixels. **European Conference on Computer Vision**: 352-365.
 - **[Context-sensitive]** Xiang, B., et al. (2010). "Learning context-sensitive shape similarity by graph transduction." **IEEE Transactions on Pattern Analysis and Machine Intelligence** 32(5): 861-874.
-- **[gPb-owt-ucm]** Arbelaez, P., et al. (2011). "Contour detection and hierarchical image segmentation." **IEEE Transactions on Pattern Analysis and Machine Intelligence** 33(5): 898-916.
+- **[gPb-owt-ucm]** Arbelaez, P., et al. (2011). "Contour detection and hierarchical image segmentation." **IEEE Transactions on Pattern Analysis and Machine Intelligence** 33(5): 898-916. [**[code]**](http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html)
 - **[LRR & MLAP]** Cheng, B., et al. (2011). Multi-task low-rank affinity pursuit for image segmentation. **IEEE International Conference on Computer Vision**: 2439-2446.  
 - **[TBES]** Mobahi, H., et al. (2011). "Segmentation of natural images by texture and boundary compression." **International Journal of Computer Vision** 95(1): 86-98.
 - **[TPG]** Yang, X. and L. J. Latecki (2011). Affinity learning on a tensor product graph with applications to shape and image retrieval. **IEEE Conference on Computer Vision and Pattern Recognition**: 2369-2376. 
@@ -191,7 +191,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[LFPA]** Kim, T. H., et al. (2013). "Learning full pairwise affinities for spectral segmentation." **IEEE Transactions on Pattern Analysis and Machine Intelligence** 35(7): 1690-1703.
 - **[HAFCM]** Tan, K. S., et al. (2013). "Novel initialization scheme for Fuzzy C-Means algorithm on color image segmentation." **Applied Soft Computing** 13(4): 1832-1852.
 - **[RFHA]** Tan, K. S., et al. (2013). "Color image segmentation using adaptive unsupervised clustering approach." **Applied Soft Computing** 13(4): 2017-2036.
-- **[L0-GRAPH]** Wang, X., et al. (2013). A Graph-cut approach to image segmentation using an affinity graph based on &#x2113;\_0-sparse representation of features. **IEEE International Conference on Image Processing**: 4019-4023.
+- **[L0-GRAPH]** Wang, X., et al. (2013). A Graph-cut approach to image segmentation using an affinity graph based on &#x2113;\_0-sIncorporating texture information into region-based unsupervised image segmentation using textural superpixelsparse representation of features. **IEEE International Conference on Image Processing**: 4019-4023.
 - **[WCP]** Wang, X., et al. (2013). Graph-based image segmentation using weighted color patch. **IEEE International Conference on Image Processing**: 4064-4068.
 - **[HPCQ]** Cho, S. I., et al. (2014). "Human Perception-based image segmentation using optimising of colour quantisation." **IET Image Processing** 8(12): 761-770.
 - **[CCM]** Gu, X., et al. (2014). Improving superpixel-based image segmentation by incorporating color covariance matrix manifolds. **IEEE International Conference on Image Processing**: 4403-4406.
@@ -201,9 +201,9 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[FMBFM]** Mignotte, M. and C. Hélou (2014). "A Precision-recall criterion based consensus model for fusing multiple segmentations." **International Journal of Signal Processing, Image Processing and Pattern Recognition** 7(3): 61-82.
 - **[RIS-HL]** Wu, J., et al. (2014). Reverse image segmentation: A high-level solution to a low-level task. **British Machine Vision Conference**. 
 - **[LDCQP]** Chakeri, A. and L. O. Hall (2015). Large data clustering using quadratic programming: A comprehensive quantitative analysis. **IEEE International Conference on Data Mining Workshop**: 806-813. 
-- **[CCP]** Fu, X., et al. (2015). Robust image segmentation using contour-guided color palettes. **IEEE International Conference on Computer Vision**: 1618-1625.
+- **[CCP]** Fu, X., et al. (2015). Robust image segmentation using contour-guided color palettes. **IEEE International Conference on Computer Vision**: 1618-1625. [**[code]**](https://github.com/fuxiang87/MCL_CCP)
 - **[FSHA]** Verdoja, F. and M. Grangetto (2015). Fast superpixel-based hierarchical approach to image segmentation. **International Conference on Image Analysis and Processing**: 364-374.
-- **[GL-GRAPH]** Wang, X., et al. (2015). "A Global/local affinity graph for image segmentation." **IEEE Transactions Image Processing** 24(4): 1399-1411.
+- **[GL-GRAPH]** Wang, X., et al. (2015). "A Global/local affinity graph for image segmentation." **IEEE Transactions Image Processing** 24(4): 1399-1411. [**[code]**](https://github.com/xiaofanglegoc/global-local-affinity-graph)
 - **[FBTS]** Yuan, J., et al. (2015). "Factorization-based texture segmentation." **IEEE Transactions Image Processing** 24(11): 3488-3497.
 - **[GTD]** Yu Z., et al. (2015). Generalized transitive distance with minimum spanning random forest. **International Joint Conference on Artificial Intelligence (IJCAI)**: 2205-2211.
 - **[ISM]** Li, X., et al. (2016). "An integrated similarity metric for graph-based color image segmentation." **Multimedia Tools and Applications** 75(6): 2969-2987.
@@ -221,10 +221,10 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[FRFCM]** Lei, T., et al. (2018). "Significantly fast and robust fuzzy C-means clustering algorithm based on morphological reconstruction and membership filtering." **IEEE Transactions on Fuzzy Systems** 26(5): 3027-3041. [**[code]**](https://github.com/jiaxhsust/Significantly-Fast-and-Robust-FCM-Based-on-Morphological-Reconstruction-and-Membership-Filtering)
 - **[H\_+R\_Better]** Li, K., et al. (2018). "Iterative image segmentation with feature driven heuristic four-color labeling." **Pattern Recognition** 76: 69-79.
 - **[2DNLMeKGSA]** Mittal, H. and M. Saraswat (2018). "An optimum multi-level image thresholding segmentation using non-local means 2D histogram and exponential Kbest gravitational search algorithm." **Engineering Applications of Artificial Intelligence** 71: 226-235.
-- **[AMR]** Lei, T., et al. (2019). "Adaptive morphological reconstruction for seeded image segmentation." **IEEE Transactions Image Processing** 28(11): 5510-5523.
-- **[SFFCM]** Lei, T., et al. (2019). "Superpixel-based fast fuzzy C-means clustering for color image segmentation." **IEEE Transactions on Fuzzy Systems** 27(9): 1753-1766.
+- **[AMR]** Lei, T., et al. (2019). "Adaptive morphological reconstruction for seeded image segmentation." **IEEE Transactions Image Processing** 28(11): 5510-5523. [**[code]**](https://github.com/jiaxhsust/Adaptive-Morphological-Reconstruction-for-Seeded-Image-Segmentation)
+- **[SFFCM]** Lei, T., et al. (2019). "Superpixel-based fast fuzzy C-means clustering for color image segmentation." **IEEE Transactions on Fuzzy Systems** 27(9): 1753-1766. [**[code]**](https://github.com/jiaxhsust/Superpixel-based-Fast-Fuzzy-C-Means-Clustering-for-Color-Image-Segmentation)
 - **[EA-GRAPH]** Sun, G., et al. (2019). "An enhanced affinity graph for image segmentation." **IEICE Transactions on Information and Systems** E102.D(5): 1073-1080.
-- **[AASP-GRAPH]** Zhang, Y., et al. (2019).  "An adaptive affinity graph with subspace pursuit for natural image segmentation,"  **IEEE International Conference on Multimedia and Expo**: 802-807. [code](https://github.com/Yangzhangcst/AASP-Graph)
+- **[AASP-GRAPH]** Zhang, Y., et al. (2019).  "An adaptive affinity graph with subspace pursuit for natural image segmentation,"  **IEEE International Conference on Multimedia and Expo**: 802-807. [**[code]**](https://github.com/Yangzhangcst/AASP-Graph)
 
 ##
 
