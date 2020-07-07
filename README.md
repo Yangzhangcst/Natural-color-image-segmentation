@@ -231,6 +231,24 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 
 ##
 
+## Citing
+If you find this repository useful in your research, please consider citing:
+```
+@INPROCEEDINGS{AASP-Graph,  
+  author={Y. {Zhang} and H. {Zhang} and Y. {Guo} and K. {Lin} and J. {He}},  
+  booktitle={IEEE International Conference on Multimedia and Expo (ICME)},   
+  title={An Adaptive Affinity Graph with Subspace Pursuit for Natural Image Segmentation},   
+  year={2019}，  
+  pages={802-807},}
+```
+```
+@INPROCEEDINGS{AF-Graph,  
+  author={Y. {Zhang} and M. {Liu} and J. {He} and F. {Pan} and Y. {Guo}},  
+  booktitle={arXiv:2006.13542},   
+  title={Affinity Fusion Graph-based Framework for Natural Image Segmentation},   
+  year={2020}}
+```
+
 ## Contact & Feedback
 
 If you have any suggestions about this project, feel free to contact me.
