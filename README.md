@@ -186,7 +186,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[TPG]** Yang, X. and L. J. Latecki (2011). Affinity learning on a tensor product graph with applications to shape and image retrieval. **IEEE Conference on Computer Vision and Pattern Recognition**: 2369-2376. 
 - **[Co-transduction]** Bai, X., et al. (2012). "Co-transduction for shape retrieval." **IEEE Transactions Image Processing** 21(5): 2747-2757.
 - **[Joint Kernel]** Kim, J., et al. (2012). Joint kernel learning for supervised image segmentation. **Asian Conference on Computer Vision**.
-- **[SAS]** Zhenguo, L., et al. (2012). Segmentation using superpixels: A bipartite graph partitioning approach. **IEEE Conference on Computer Vision and Pattern Recognition**: 789-796.
+- **[SAS]** Zhenguo, L., et al. (2012). Segmentation using superpixels: A bipartite graph partitioning approach. **IEEE Conference on Computer Vision and Pattern Recognition**: 789-796. [**[code]**](http://www.ee.columbia.edu/ln/dvmm/SuperPixelSeg/dlform.htm)
 - **[FusionTP]** Zhou, Y., et al. (2012). Fusion with diffusion for robust visual tracking. **Advances in Neural Information Processing Systems**. 
 - **[Corr-Cluster]** Kim, S., et al. (2013). "Task-specific image partitioning." **IEEE Transactions Image Processing** 22(2): 488-500.
 - **[LFPA]** Kim, T. H., et al. (2013). "Learning full pairwise affinities for spectral segmentation." **IEEE Transactions on Pattern Analysis and Machine Intelligence** 35(7): 1690-1703.
