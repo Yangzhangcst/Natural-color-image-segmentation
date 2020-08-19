@@ -1,11 +1,12 @@
 # Natural/color image segmentation
 A paper list of natural/color image segmentation.
 
-*Last updated: 2020/07/04
+*Last updated: 2020/08/19
 
 #### Update log
 *2020/March* - update all of recent papers and make some diagram about history of natural/color image segmentation.  
 *2020/July* - update some recent papers and codes.  
+*2020/August* - update some recent papers and codes.  
 
 ##
 
@@ -113,12 +114,13 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 |:---------:|:---:|:---:|:---:|:---:|:--:|:---------:|:------------:|--------------|
 | **HTFCM** | 0.6745 |        | 0.4165 | 14.4682 | 0.3546 |  | PR | 2011 |
 | **HAFCM** | 0.7435 | | 0.2515 | 15.4481 | 0.442 | | ASC | 2013 |
+|**DSFCM_N**| 0.74 |2.90|0.41| | 0.42| | TFS | 2019 |
 | **RFHA** | 0.7511 | | 0.235 | 14.3887 | 0.4224 | | ASC | 2013 |
 | **MNCut\***(in [LMS_GLA]) | 0.758 | 2.327 |  |  | 0.428 | 0.598 | CVPR | 2005 |
 | **FRFCM** | 0.76 | 2.67 | 0.37 | 12.35 | 0.45 | | TFS | 2018 |
 | **MMGR-AFCF** | 0.76 | 2.05 | 0.22 | 12.95 | 0.54 | | TFS | 2020 |
-|        **HPCQ**         | 0.7787 | | 0.2104 | 12.8726 | 0.5356 | | IET-IP | 2014 |
-|          **SFFCM**          | 0.78 | 2.06 |  0.26  |  12.8   |      0.54      | | TFS | 2019 |
+| **HPCQ** | 0.7787 | | 0.2104 | 12.8726 | 0.5356 | | IET-IP | 2014 |
+| **SFFCM**  | 0.78 | 2.06 |  0.26  |  12.8   |      0.54      | | TFS | 2019 |
 | **HVAA** | 0.7866 | | 0.2077 | 12.5658 | 0.5334 | | ISOCC | 2018 |
 | **Canny-UCM\*** (in [LMS_GLA]) | 0.79 | 2.19 |  |  | 0.49 | 0.6 | CVPRW | 2006 |
 | **FH\*** (in [LMS_GLA]) | 0.791 | 2.159 |  |  | 0.527 | 0.622 | IJCV | 2004 |
@@ -226,8 +228,9 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[SFFCM]** Lei, T., et al. (2019). "Superpixel-based fast fuzzy C-means clustering for color image segmentation." **IEEE Transactions on Fuzzy Systems** 27(9): 1753-1766. [**[code]**](https://github.com/jiaxhsust/Superpixel-based-Fast-Fuzzy-C-Means-Clustering-for-Color-Image-Segmentation)
 - **[EA-GRAPH]** Sun, G., et al. (2019). "An enhanced affinity graph for image segmentation." **IEICE Transactions on Information and Systems** E102.D(5): 1073-1080.
 - **[AASP-GRAPH]** Zhang, Y., et al. (2019).  "An adaptive affinity graph with subspace pursuit for natural image segmentation,"  **IEEE International Conference on Multimedia and Expo**: 802-807. [**[code]**](https://github.com/Yangzhangcst/AASP-Graph)
+- **[DSFCM_N]** Zhang, Y., et al. (2019).  “Deviation-Sparse fuzzy c-means with neighbor information constraint,” **IEEE Transactions on Fuzzy Systems** 27(1): 185-199.
 - **[MMGR-AFCF]** Lei, T., et al. (2020). "Automatic Fuzzy Clustering Framework for Image Segmentation." **IEEE Transactions on Fuzzy Systems**. [**[code]**](https://github.com/jiaxhsust/Automatic-Fuzzy-Clustering-Framework-for-Image-Segmentation)
-
+- **[MSFCM]** Zhou, S., et al. (2020). “A new membership scaling fuzzy c-means clustering algorithm,” **IEEE Transactions on Fuzzy Systems**.
 
 ##
 
