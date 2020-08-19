@@ -233,10 +233,10 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[SFFCM]** Lei, T., et al. (2019). "Superpixel-based fast fuzzy C-means clustering for color image segmentation." **IEEE Transactions on Fuzzy Systems** 27(9): 1753-1766. [**[code]**](https://github.com/jiaxhsust/Superpixel-based-Fast-Fuzzy-C-Means-Clustering-for-Color-Image-Segmentation)
 - **[EA-GRAPH]** Sun, G., et al. (2019). "An enhanced affinity graph for image segmentation." **IEICE Transactions on Information and Systems** E102.D(5): 1073-1080.
 - **[AASP-GRAPH]** Zhang, Y., et al. (2019).  "An adaptive affinity graph with subspace pursuit for natural image segmentation,"  **IEEE International Conference on Multimedia and Expo**: 802-807. [**[code]**](https://github.com/Yangzhangcst/AASP-Graph)
-- **[DSFCM_N]** Zhang, Y., et al. (2019).  “Deviation-Sparse fuzzy c-means with neighbor information constraint,” **IEEE Transactions on Fuzzy Systems** 27(1): 185-199.
+- **[DSFCM_N]** Zhang, Y., et al. (2019).  “Deviation-Sparse fuzzy c-means with neighbor information constraint,” **IEEE Transactions on Fuzzy Systems** 27(1): 185-199. [**[code]**](https://github.com/zhangyuxuan1996/DSFCM_N)
 - **[MMGR-AFCF]** Lei, T., et al. (2020). "Automatic Fuzzy Clustering Framework for Image Segmentation." **IEEE Transactions on Fuzzy Systems**. [**[code]**](https://github.com/jiaxhsust/Automatic-Fuzzy-Clustering-Framework-for-Image-Segmentation)
 - **[MSFCM]** Zhou, S., et al. (2020). “A new membership scaling fuzzy c-means clustering algorithm,” **IEEE Transactions on Fuzzy Systems**.
-- **[RSFFCA]** Jia, X., et al. (2020). “Robust Self-Sparse Fuzzy Clustering for Image Segmentation,” **IEEE Transactions on Fuzzy Systems**.
+- **[RSFFCA]** Jia, X., et al. (2020). “Robust Self-Sparse Fuzzy Clustering for Image Segmentation,” **IEEE Transactions on Fuzzy Systems**. [**[code]**]( https://github.com/jiaxhsust/Robust-Self-Sparse-Fuzzy-Clustering-for-Image-Segmentation)
 
 ##
 
