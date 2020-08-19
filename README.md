@@ -114,12 +114,14 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 |:---------:|:---:|:---:|:---:|:---:|:--:|:---------:|:------------:|--------------|
 | **HTFCM** | 0.6745 |        | 0.4165 | 14.4682 | 0.3546 |  | PR | 2011 |
 | **HAFCM** | 0.7435 | | 0.2515 | 15.4481 | 0.442 | | ASC | 2013 |
-|**DSFCM_N**| 0.74 |2.90|0.41| | 0.42| | TFS | 2019 |
+|**DSFCM_N**| 0.74 | 2.90 | 0.41 | | 0.42 | | TFS | 2019 |
+| **MSFCM **| 0.74 | 2.85 | 0.40 | | 0.43 | | TFS | 2020 |
 | **RFHA** | 0.7511 | | 0.235 | 14.3887 | 0.4224 | | ASC | 2013 |
 | **MNCut\***(in [LMS_GLA]) | 0.758 | 2.327 |  |  | 0.428 | 0.598 | CVPR | 2005 |
 | **FRFCM** | 0.76 | 2.67 | 0.37 | 12.35 | 0.45 | | TFS | 2018 |
 | **MMGR-AFCF** | 0.76 | 2.05 | 0.22 | 12.95 | 0.54 | | TFS | 2020 |
 | **HPCQ** | 0.7787 | | 0.2104 | 12.8726 | 0.5356 | | IET-IP | 2014 |
+| **RSFFCA**| 0.78 | 2.12 | 0.28 | | 0.52 | | TFS | 2020 |
 | **SFFCM**  | 0.78 | 2.06 |  0.26  |  12.8   |      0.54      | | TFS | 2019 |
 | **HVAA** | 0.7866 | | 0.2077 | 12.5658 | 0.5334 | | ISOCC | 2018 |
 | **Canny-UCM\*** (in [LMS_GLA]) | 0.79 | 2.19 |  |  | 0.49 | 0.6 | CVPRW | 2006 |
@@ -150,10 +152,13 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **Supervised-Ncut\*** (in [HO-CC]) | 0.601 | 3.101 |  | 13.498 | 0.287 |  | NIPS | 2009 |
 | **gPb-Hoiem\***  (in [HO-CC]) | 0.614 | 2.847 |  | 13.533 | 0.353 | | IJCV | 2007 |
 | **MNCut\*** (in [HO-CC]) | 0.628 | 2.765 |  | 11.941 | 0.341 |  | CVPR | 2005 |
+| **MSFCM **| 0.68 | 1.80 | 0.30 | | 0.57 | | TFS | 2020 | 
+|**DSFCM_N**| 0.69 |1.91|0.32| | 0.54| | TFS | 2019 |
 | **FRFCM** | 0.71 | 1.79 | 0.3 | 12.23 | 0.58 | | TFS | 2018 |
 | **SuperParsing** (in [RIS-HL]) | 0.71 | 1.4 |      |        |        | | ECCV | 2010 |
 |          **SFFCM**          | 0.73 | 1.58 |  0.25  | 12.49 |      0.62      | | TFS | 2019 |
 | **Meanshift\***  (in [HO-CC]) | 0.734 | 1.649 |  | 13.944 | 0.606 | | TPAMI | 2002 |
+| **RSFFCA**| 0.75 | 1.51 | 0.24 | | 0.64 | | TFS | 2020 |
 | **TBES**  (in [RIS-HL]) | 0.76 | 1.49 |  |  |  | | IJCV | 2011 |
 | **Corr-Cluster\*** | 0.773 | 1.648 |  | 9.194 | 0.632 |  | TIP | 2013 |
 | **gPb-owt-ucm\*** (in [HO-CC]) | 0.779 | 1.675 |  | 9.8 | 0.628 |  | TPAMI | 2011 |
@@ -231,6 +236,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[DSFCM_N]** Zhang, Y., et al. (2019).  “Deviation-Sparse fuzzy c-means with neighbor information constraint,” **IEEE Transactions on Fuzzy Systems** 27(1): 185-199.
 - **[MMGR-AFCF]** Lei, T., et al. (2020). "Automatic Fuzzy Clustering Framework for Image Segmentation." **IEEE Transactions on Fuzzy Systems**. [**[code]**](https://github.com/jiaxhsust/Automatic-Fuzzy-Clustering-Framework-for-Image-Segmentation)
 - **[MSFCM]** Zhou, S., et al. (2020). “A new membership scaling fuzzy c-means clustering algorithm,” **IEEE Transactions on Fuzzy Systems**.
+- **[RSFFCA]** Jia, X., et al. (2020). “Robust Self-Sparse Fuzzy Clustering for Image Segmentation,” **IEEE Transactions on Fuzzy Systems**.
 
 ##
 
