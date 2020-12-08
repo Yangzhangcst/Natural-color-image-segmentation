@@ -81,6 +81,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **PRIF** | 0.80 | 1.97 | 0.21 | 8.45 | | | TIP | 2010 |
 | **FMBFM** | 0.80 | 1.88 | 0.20 | 9.30 | |  | IJSIP | 2014 |
 | **ATP** | 0.8039 | 2.0210 | 0.2066 | 13.7700 | | | TIP | 2014 |
+| **gPb-owt-ucm\***  (in [HO-CC]) | 0.807 | 2.039 | | 11.001 | 0.571 | 0.710 | TPAMI | 2011 |
 | **TBES** (in [UHIS_FEM]) | 0.8070 | 1.7050 | 0.1812 | 10.71 | | 0.64  (in [FBTS]) | IJCV | 2011 |
 | **H\_+R\_Better** | 0.8073 | 1.8260 | 0.2079 | 12.16 | | | PR | 2018 |
 | **Co-transduction** (in [GL-GRAPH]) | 0.8083 | 2.3644 | 0.2681 | 14.1972 | | | TIP | 2012 |
@@ -90,7 +91,6 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **LFPA** | 0.8146 | 1.8545 | 0.1809 | 12.21 | 0.53 | | TPAMI | 2013 |
 | **TSESC** | 0.8205 | 1.9520 | 0.1998 | 12.09 | | | CVPR | 2011 |
 | **TPG** | 0.8227 | 1.7696 |        |         | | | CVPR | 2011 |
-| **gPb-owt-ucm\***  (in [SASFinal]) | 0.825 | 1.971 | | 9.995 | 0.579 | 0.726 | TPAMI | 2011 |
 | **ISM** | 0.83 | 2.16 | 0.1650 | 11.65 | | | MTA | 2016 |
 | **FSHA** | 0.83 | 1.71 |        |         | | | ICIAP | 2015 |
 | **SAS** | 0.8319 | 1.6849 | 0.1779 | 11.29 | 0.61 (in [SASFinal]) | | CVPR | 2012 |
@@ -236,7 +236,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[DSFCM_N]** Zhang, Y., et al. (2019).  “Deviation-Sparse fuzzy c-means with neighbor information constraint,” **IEEE Transactions on Fuzzy Systems** 27(1): 185-199. [**[code]**](https://github.com/zhangyuxuan1996/DSFCM_N)
 - **[MMGR-AFCF]** Lei, T., et al. (2020). "Automatic Fuzzy Clustering Framework for Image Segmentation." **IEEE Transactions on Fuzzy Systems**. [**[code]**](https://github.com/jiaxhsust/Automatic-Fuzzy-Clustering-Framework-for-Image-Segmentation)
 - **[MSFCM]** Zhou, S., et al. (2020). “A new membership scaling fuzzy c-means clustering algorithm,” **IEEE Transactions on Fuzzy Systems**.
-- **[RSFFCA]** Jia, X., et al. (2020). “Robust Self-Sparse Fuzzy Clustering for Image Segmentation,” **IEEE Transactions on Fuzzy Systems**. [**[code]**]( https://github.com/jiaxhsust/Robust-Self-Sparse-Fuzzy-Clustering-for-Image-Segmentation)
+- **[RSFFCA]** Jia, X., et al. (2020). “Robust Self-Sparse Fuzzy Clustering for Image Segmentation,” **IEEE Access**. [**[code]**]( https://github.com/jiaxhsust/Robust-Self-Sparse-Fuzzy-Clustering-for-Image-Segmentation)
 
 ##
 
