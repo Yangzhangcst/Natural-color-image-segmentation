@@ -1,12 +1,13 @@
 # Natural/color image segmentation
 A paper list of natural/color image segmentation.
 
-*Last updated: 2020/08/19
+*Last updated: 2020/12/08
 
 #### Update log
 *2020/March* - update all of recent papers and make some diagram about history of natural/color image segmentation.  
 *2020/July* - update some recent papers and codes.  
 *2020/August* - update some recent papers and codes.  
+*2020/December* - update some recent papers and codes.  
 
 ##
 
@@ -26,7 +27,7 @@ The papers related to datasets used mainly in natural/color image segmentation a
 
 - **[`[BSDS500]`](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html)** Berkeley segmentation dataset 500 is  an improved version of BSDS300 dataset. the BSDS500 contains 500 natural images. Each image is annotated by 5 different people on average.
 
-- **[`[MSRC]`](https://www.microsoft.com/en-us/research/project/image-understanding/?from=http%3A%2F%2Fresearch.microsoft.com%2Fvision%2Fcambridge%2Frecognition%2F)** Microsoft Research Cambridge v2 dataset  contains 591 images and 23 object classes with accurate pixel-wise labeled images.
+- **[`[MSRC]`](https://www.microsoft.com/en-us/research/project/image-understanding/?from=http%3A%2F%2Fresearch.microsoft.com%2Fvision%2Fcambridge%2Frecognition%2F)** Microsoft Research Cambridge v2 dataset contains 591 images and 23 object classes with accurate pixel-wise labeled images.
 
 ##
 
@@ -52,25 +53,25 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 
 |   Method  | PRI | VoI | GCE | BDE | SC | F | Published | Year |
 |:---------:|:---:|:---:|:---:|:---:|:--:|:---------:|:------------:|--------------|
-| **2DNLMeKGSA** | 0.6079 | 2.8078 | 0.3352 | 10.2407 |  |  | EAAI | 2018 |
-| **gPb-Hoiem\***  (in [HO-CC]) | 0.614 | 2.847 |  | 13.533 | 0.353 | | IJCV | 2007 |
-| **FH** (in [CCP]) | 0.7139 | 3.3949 | 0.1746 | 16.67 |	0.51 |  | IJCV | 2004 |
-| **2DKLMPSO** | 0.7154 | 5.6802 | 0.4173 | 9.9382  |  |  | APS | 2016 |
-| **Ncut** | 0.7242 | 2.9061 | 0.2232 |  17.15  | 0.53 (in[LSI]) |  | TPAMI | 2000 |
-|     **WCP**     | 0.7496 | 2.4399 | 0.2392 | 15.7416 |              |                |   ICIP    | 2013 |
-|    **FRFCM**    |  0.75  |  2.62  |  0.36  |  12.87  | 0.46 |  | TFS | 2018 |
-| **MNCut** | 0.7559 | 2.4701 | 0.1925 |  15.10  |              | 0.595\* (in [HO-CC]) | CVPR | 2005 |
-| **LDCQP** | 0.7592 | 2.1212 |        | 13.8691 |              |                | ICDMW | 2015 |
-| **CTM** | 0.760  |  2.02  |  0.19  |  8.99   |              |                 |   CVIU    | 2008 |
-|         **SuperParsing**         | 0.7628 | 2.0387 | 0.2178 |  15.05  |              |                 |   ECCV    | 2010 |
-|    **JSEG** (in [UHIS_FEM]) | 0.7756 | 2.3217 | 0.1989 |  14.40  |              |                 |   TPAMI   | 2001 |
-|             **SDTV**             | 0.7758 | 1.8165 | 0.1768 |  16.24  |     0.57     |                 |   ICCV    | 2009 |
-|           **UHIS_FEM**           | 0.7769 | 2.3067 | 0.2215 |  10.66  |              |                 |    PR     | 2017 |
-| **FusionTP** (in [UHIS_FEM]) | 0.7771 | 3.3089 | 0.3654 | 13.2428 |              |                 |   NIPS    | 2012 |
-|          **SFFCM**           |  0.78  |  2.02  |  0.26  |  12.90  |     0.55     |                 |    TFS    | 2019 |
-|           **CCP**            |  0.79  |  2.89  |  0.13  |  10.21  |     0.47     |                 |   ICCV    | 2015 |
-|             **FBTS**             |  0.79  |  2.10  |        |         |              |      0.62       |    TIP    | 2015 |
-|           **TDC**            | 0.7926 | 2.0870 | 0.1835 | 13.1710 |              |                 |   CVPR    | 2014 |
+| **2DNLMeKGSA**               | 0.6079 | 2.8078 | 0.3352 | 10.2407 |                |  | EAAI  | 2018 |
+| **gPb-Hoiem\***  (in [HO-CC])| 0.614  | 2.847  |        | 13.533  | 0.353          |  | IJCV  | 2007 |
+| **FH** (in [CCP])            | 0.7139 | 3.3949 | 0.1746 | 16.67   |	0.51          |  | IJCV  | 2004 |
+| **2DKLMPSO**                 | 0.7154 | 5.6802 | 0.4173 | 9.9382  |               |  | APS   | 2016 |
+| **Ncut**                     | 0.7242 | 2.9061 | 0.2232 |  17.15  | 0.53 (in[LSI])|  | TPAMI | 2000 |
+| **WCP**                      | 0.7496 | 2.4399 | 0.2392 | 15.7416 |               |  | ICIP  | 2013 |
+| **FRFCM**                    |  0.75  |  2.62  |  0.36  |  12.87  | 0.46          |  | TFS | 2018 |
+| **MNCut**                    | 0.7559 | 2.4701 | 0.1925 |  15.10  |               | 0.595\* (in [HO-CC]) | CVPR | 2005 |
+| **LDCQP**                    | 0.7592 | 2.1212 |        | 13.8691 |               |                | ICDMW | 2015 |
+| **CTM**                      | 0.760  |  2.02  |  0.19  |  8.99   |               |                 |   CVIU    | 2008 |
+| **SuperParsing**             | 0.7628 | 2.0387 | 0.2178 |  15.05  |               |                 |   ECCV    | 2010 |
+| **JSEG** (in [UHIS_FEM])     | 0.7756 | 2.3217 | 0.1989 |  14.40  |               |                 |   TPAMI   | 2001 |
+| **SDTV**                     | 0.7758 | 1.8165 | 0.1768 |  16.24  |     0.57      |                 |   ICCV    | 2009 |
+| **UHIS_FEM**                 | 0.7769 | 2.3067 | 0.2215 |  10.66  |               |                 |    PR     | 2017 |
+| **FusionTP** (in [UHIS_FEM]) | 0.7771 | 3.3089 | 0.3654 | 13.2428 |               |                 |   NIPS    | 2012 |
+|          **SFFCM**           |  0.78  |  2.02  |  0.26  |  12.90  |     0.55      |                 |    TFS    | 2019 |
+|           **CCP**            |  0.79  |  2.89  |  0.13  |  10.21  |     0.47      |                 |   ICCV    | 2015 |
+|             **FBTS**         |  0.79  |  2.10  |        |         |               |      0.62       |    TIP    | 2015 |
+|           **TDC**            | 0.7926 | 2.0870 | 0.1835 | 13.1710 |               |                 |   CVPR    | 2014 |
 | **Context-sensitive**  (in [GL-GRAPH]) | 0.7937 | 3.9174 | 0.4165 | 9.9046  |              |                 |   TPAMI   | 2010 |
 |     **Meanshift**  (in [CCP])     | 0.7958 | 1.9725 | 0.1888 |  14.41  |     0.54     | 0.512\* (in [HO-CC]) |   TPAMI   | 2002 |
 |        **NTP** (in [GL-GRAPH])        | 0.7974 | 2.1130 | 0.2171 |  13.58  |              |                 |   CVPR    | 2008 |
@@ -90,6 +91,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **HO-CC\*** | 0.8140 | 1.7430 |        | 10.3770 | 0.599 | 0.722 | TPAMI | 2014 |
 | **LFPA** | 0.8146 | 1.8545 | 0.1809 | 12.21 | 0.53 | | TPAMI | 2013 |
 | **TSESC** | 0.8205 | 1.9520 | 0.1998 | 12.09 | | | CVPR | 2011 |
+| **MME-IFODPSO** | 0.821 | 2.023 | 0.198 | 9.398 | | | JAIHC | 2020 |
 | **TPG** | 0.8227 | 1.7696 |        |         | | | CVPR | 2011 |
 | **ISM** | 0.83 | 2.16 | 0.1650 | 11.65 | | | MTA | 2016 |
 | **FSHA** | 0.83 | 1.71 |        |         | | | ICIAP | 2015 |
@@ -119,6 +121,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **RFHA** | 0.7511 | | 0.235 | 14.3887 | 0.4224 | | ASC | 2013 |
 | **MNCut\***(in [LMS_GLA]) | 0.758 | 2.327 |  |  | 0.428 | 0.598 | CVPR | 2005 |
 | **FRFCM** | 0.76 | 2.67 | 0.37 | 12.35 | 0.45 | | TFS | 2018 |
+| **HS** | 0.76 | 2.39 | 0.26 | 14.03 |      | | IEICE-TIS  | 2020 |
 | **MMGR-AFCF** | 0.76 | 2.05 | 0.22 | 12.95 | 0.54 | | TFS | 2020 |
 | **HPCQ** | 0.7787 | | 0.2104 | 12.8726 | 0.5356 | | IET-IP | 2014 |
 | **RSFFCA**| 0.78 | 2.12 | 0.28 | | 0.52 | | TFS | 2020 |
@@ -134,10 +137,11 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **fPb-UCM\*** (in [LMS_GLA]) | 0.819 | 1.698 | | | 0.582 | 0.69 | TPAMI | 2013 |
 | **gPb-owt-ucm\***(in [HO-CC]) | 0.825 | 1.971 |  | 9.995 | 0.579 | 0.726 | TPAMI | 2011 |
 | **PW-CC\*** | 0.826 | 1.859 | | 9.812 | 0.589 | 0.728 | TPAMI | 2014 |
-| **HO-CC\*** | 0.8280 | 1.7910 | | 9.7700 | 0.5950 | 0.73 | TPAMI | 2014 |
+| **HO-CC\*** | 0.828 | 1.791 | | 9.770 | 0.595 | 0.73 | TPAMI | 2014 |
+| **CNIS**    | 0.828 | 1.695 | |       |       | 0.694 | MTA | 2019 |
 | **LRR(CH)** | 0.8295 | 1.7475 | |  | 0.5905 |  | ICCV | 2011 |
 | **MCG** | 0.83 | 1.57 |  |  | 0.61 | | TPAMI | 2017 |
-|      **SAS** (in [ISCC])      | 0.84 | 1.71 | | | 0.6 | | CVPR | 2012 |
+| **SAS** (in [ISCC])      | 0.84 | 1.71 | | | 0.6 | | CVPR | 2012 |
 | **CCM** | 0.841 | 2.04 | 0.236 | 10.78 | | | ICIP | 2014 |
 | **SHST** | 0.845 | 1.47 | 0.148 | 19 |  | | IVCNZ | 2016 |
 | **AMR** | 0.85 | 1.62 | | | 0.63 | | TIP | 2019 |
@@ -234,9 +238,12 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[EA-GRAPH]** Sun, G., et al. (2019). "An enhanced affinity graph for image segmentation." **IEICE Transactions on Information and Systems** E102.D(5): 1073-1080.
 - **[AASP-GRAPH]** Zhang, Y., et al. (2019).  "An adaptive affinity graph with subspace pursuit for natural image segmentation,"  **IEEE International Conference on Multimedia and Expo**: 802-807. [**[code]**](https://github.com/Yangzhangcst/AASP-Graph)
 - **[DSFCM_N]** Zhang, Y., et al. (2019).  “Deviation-Sparse fuzzy c-means with neighbor information constraint,” **IEEE Transactions on Fuzzy Systems** 27(1): 185-199. [**[code]**](https://github.com/zhangyuxuan1996/DSFCM_N)
+- **[CNIS]** Mourchid, Y., et al. (2019). "A general framework for complex network-based image segmentation." **Multimedia Tools and Applications** 78:20191–20216.
 - **[MMGR-AFCF]** Lei, T., et al. (2020). "Automatic Fuzzy Clustering Framework for Image Segmentation." **IEEE Transactions on Fuzzy Systems**. [**[code]**](https://github.com/jiaxhsust/Automatic-Fuzzy-Clustering-Framework-for-Image-Segmentation)
 - **[MSFCM]** Zhou, S., et al. (2020). “A new membership scaling fuzzy c-means clustering algorithm,” **IEEE Transactions on Fuzzy Systems**.
 - **[RSFFCA]** Jia, X., et al. (2020). “Robust Self-Sparse Fuzzy Clustering for Image Segmentation,” **IEEE Access**. [**[code]**]( https://github.com/jiaxhsust/Robust-Self-Sparse-Fuzzy-Clustering-for-Image-Segmentation)
+- **[MME-IFODPSO]** Chakraborty, R., et al. (2020). “IFODPSO‑based multi‑level image segmentation scheme aided with Masi entropy,” **Journal of Ambient Intelligence and Humanized Computing**. 
+- **[HS]** Wu, C., et al. (2019). "Superpixel Based Hierarchical Segmentation for Color Image." **IEICE Transactions on Information and Systems** E103.D(10): 2246-2249.
 
 ##
 
