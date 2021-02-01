@@ -105,6 +105,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **AASP-GRAPH** | 0.8446 | 1.6485 | 0.1737 | 14.6416 |  | | ICME | 2019 |
 | **EA-Graph** | 0.8459 | 1.6774 | 0.1845 | 11.2638 | | | IEICE-TIS | 2019 |
 | **SHST** | 0.8470 | 1.4500 | 0.1470 | 18.29 | | | IVCNZ | 2016 |
+| **AF-GRAPH** | 0.85| 1.63 | 0.18 | 13.95 |  | | TMM | 2021 |
 | **CCM** | 0.8500 | 1.6300 | 0.1790 | 12.30 | | | ICIP | 2014 |
 | **CDS** | 0.8539 | 1.5712 | 0.1572 | 10.18 | 0.68 | | TIP | 2017 |
 | **ISCC** | 0.86 | 1.66 | | | 0.65 | | Neurocom. | 2016 |
@@ -143,6 +144,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **LRR(CH)** | 0.8295 | 1.7475 | |  | 0.5905 |  | ICCV | 2011 |
 | **MCG** | 0.83 | 1.57 |  |  | 0.61 | | TPAMI | 2017 |
 | **SAS** (in [ISCC])      | 0.84 | 1.71 | | | 0.6 | | CVPR | 2012 |
+| **AF-GRAPH** | 0.84| 1.67 | 0.18 | 13.63 |  | | TMM | 2021 |
 | **CCM** | 0.841 | 2.04 | 0.236 | 10.78 | | | ICIP | 2014 |
 | **SHST** | 0.845 | 1.47 | 0.148 | 19 |  | | IVCNZ | 2016 |
 | **AMR** | 0.85 | 1.62 | | | 0.63 | | TIP | 2019 |
@@ -172,6 +174,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **HO-CC\*** | 0.784 | 1.594 | | 9.04 | 0.648 |  | TPAMI | 2014 |
 | **LRR** | 0.7912 | 1.3002 | |  | 0.6932 |  | ICCV | 2011 |
 | **SAS\*** (in [ISCC]) | 0.80 | 1.39 |  |  | 0.67 |      | CVPR | 2012 |
+| **AF-GRAPH** | 0.83| 1.24 | 0.14 | 13.33 |  | | TMM | 2021 |
 | **MLAP** | 0.8306 | 1.1656 | | | 0.7556 | | ICCV | 2011 |
 | **ISCC** | 0.85 | 1.27 | | | 0.74 | | Neurocom. | 2016 |
 ##
@@ -246,6 +249,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[RSFFCA]** Jia, X., et al. (2020). “Robust Self-Sparse Fuzzy Clustering for Image Segmentation,” **IEEE Access**. [**[code]**]( https://github.com/jiaxhsust/Robust-Self-Sparse-Fuzzy-Clustering-for-Image-Segmentation)
 - **[MME-IFODPSO]** Chakraborty, R., et al. (2020). “IFODPSO‑based multi‑level image segmentation scheme aided with Masi entropy,” **Journal of Ambient Intelligence and Humanized Computing**. 
 - **[HS]** Wu, C., et al. (2020). "Superpixel Based Hierarchical Segmentation for Color Image." **IEICE Transactions on Information and Systems** E103.D(10): 2246-2249.
+- **[AF-GRAPH]** Zhang, Y., et al. (2021).  "Affinity fusion graph-based framework for natural image segmentation,"  **IEEE Transactions on Multimedia**: 802-807. [**[code]**](https://github.com/Yangzhangcst/AF-graph)
 
 ##
 
@@ -260,11 +264,11 @@ If you find this repository useful in your research, please consider citing:
   pages={802-807},}
 ```
 ```
-@INPROCEEDINGS{AF-Graph,  
+@ARTICLE{AF-Graph,  
   author={Y. {Zhang} and M. {Liu} and J. {He} and F. {Pan} and Y. {Guo}},  
-  booktitle={arXiv:2006.13542},   
+  booktitle={IEEE Transactions on Multimedia},   
   title={Affinity Fusion Graph-based Framework for Natural Image Segmentation},   
-  year={2020}}
+  year={2021}}
 ```
 
 ## Contact & Feedback
