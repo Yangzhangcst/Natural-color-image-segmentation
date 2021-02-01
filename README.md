@@ -249,7 +249,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[RSFFCA]** Jia, X., et al. (2020). “Robust Self-Sparse Fuzzy Clustering for Image Segmentation,” **IEEE Access**. [**[code]**]( https://github.com/jiaxhsust/Robust-Self-Sparse-Fuzzy-Clustering-for-Image-Segmentation)
 - **[MME-IFODPSO]** Chakraborty, R., et al. (2020). “IFODPSO‑based multi‑level image segmentation scheme aided with Masi entropy,” **Journal of Ambient Intelligence and Humanized Computing**. 
 - **[HS]** Wu, C., et al. (2020). "Superpixel Based Hierarchical Segmentation for Color Image." **IEICE Transactions on Information and Systems** E103.D(10): 2246-2249.
-- **[AF-GRAPH]** Zhang, Y., et al. (2021).  "Affinity fusion graph-based framework for natural image segmentation,"  **IEEE Transactions on Multimedia**: 802-807. [**[code]**](https://github.com/Yangzhangcst/AF-graph)
+- **[AF-GRAPH]** Zhang, Y., et al. (2021).  "Affinity fusion graph-based framework for natural image segmentation,"  **IEEE Transactions on Multimedia**. [**[code]**](https://github.com/Yangzhangcst/AF-graph)
 
 ##
 
