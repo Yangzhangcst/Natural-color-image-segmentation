@@ -1,14 +1,14 @@
 # Natural/color image segmentation
 A paper list of natural/color image segmentation.
 
-*Last updated: 2020/12/08
+*Last updated: 2021/02/01
 
 #### Update log
 *2020/March* - update all of recent papers and make some diagram about history of natural/color image segmentation.  
 *2020/July* - update some recent papers and codes.  
 *2020/August* - update some recent papers and codes.  
 *2020/December* - update some recent papers and codes.  
-
+*2021/February* - update some recent papers and codes. 
 ##
 
 ## Table of Contents
@@ -123,6 +123,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **FRFCM** | 0.76 | 2.67 | 0.37 | 12.35 | 0.45 | | TFS | 2018 |
 | **HS** | 0.76 | 2.39 | 0.26 | 14.03 |      | | IEICE-TIS  | 2020 |
 | **MMGR-AFCF** | 0.76 | 2.05 | 0.22 | 12.95 | 0.54 | | TFS | 2020 |
+| **AS-SR** | 0.763 | 3.804 |10.159|0.448|  | | JEI | 2017 |
 | **HPCQ** | 0.7787 | | 0.2104 | 12.8726 | 0.5356 | | IET-IP | 2014 |
 | **RSFFCA**| 0.78 | 2.12 | 0.28 | | 0.52 | | TFS | 2020 |
 | **SFFCM**  | 0.78 | 2.06 |  0.26  |  12.8   |      0.54      | | TFS | 2019 |
@@ -229,6 +230,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[MCG]** Pont-Tuset, J., et al. (2017). "Multiscale combinatorial grouping for image segmentation and object proposal generation." **IEEE Transactions on Pattern Analysis and Machine Intelligence** 39(1): 128-140.
 - **[UHIS_FEM]** Yin, S., et al. (2017). "Unsupervised hierarchical image segmentation through fuzzy entropy maximization." **Pattern Recognition** 68: 245-259.
 - **[CDS]** Fu, X.,et al. (2017). "Image segmentation using contour, surface, and depth cues." **IEEE International Conference on Image Processing**: 81-85.
+- **[AS-SR]** Mahjoub, M. A., et al. (2017). "Adaptive strategy for superpixel-based region-growing image segmentation." Journal of Electronic Imaging 26(06).
 - **[HVAA]** Lee, H. S. and Y. Hwan Kim (2018). Human visual attention analysis-based image segmentation using Color Histogram. **International SoC Design Conference (ISOCC)**: 76-77.
 - **[FRFCM]** Lei, T., et al. (2018). "Significantly fast and robust fuzzy C-means clustering algorithm based on morphological reconstruction and membership filtering." **IEEE Transactions on Fuzzy Systems** 26(5): 3027-3041. [**[code]**](https://github.com/jiaxhsust/Significantly-Fast-and-Robust-FCM-Based-on-Morphological-Reconstruction-and-Membership-Filtering)
 - **[H\_+R\_Better]** Li, K., et al. (2018). "Iterative image segmentation with feature driven heuristic four-color labeling." **Pattern Recognition** 76: 69-79.
