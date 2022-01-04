@@ -275,4 +275,4 @@ If you find this repository useful in your research, please consider citing:
 
 If you have any suggestions about this project, feel free to contact me.
 
-- [e-mail: yzhangcst[at]smail.nju.edu.cn]
+- [e-mail: yzhangcst[at]gmail.com]
