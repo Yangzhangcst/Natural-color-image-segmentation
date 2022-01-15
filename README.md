@@ -1,7 +1,7 @@
 # Natural/color image segmentation
-A paper list of natural/color image segmentation.
+A paper list of unsupervised natural/color image segmentation.
 
-*Last updated: 2021/02/01
+*Last updated: 2022/01/15
 
 #### Update log
 *2020/March* - update all of recent papers and make some diagram about history of natural/color image segmentation.  
@@ -9,6 +9,8 @@ A paper list of natural/color image segmentation.
 *2020/August* - update some recent papers and codes.  
 *2020/December* - update some recent papers and codes.  
 *2021/February* - update some recent papers and codes. 
+*2022/January* - update some recent papers and codes. 
+
 ##
 
 ## Table of Contents
@@ -64,6 +66,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **LDCQP**                    | 0.7592 | 2.1212 |        | 13.8691 |               |                | ICDMW | 2015 |
 | **CTM**                      | 0.760  |  2.02  |  0.19  |  8.99   |               |                 |   CVIU    | 2008 |
 | **SuperParsing**             | 0.7628 | 2.0387 | 0.2178 |  15.05  |               |                 |   ECCV    | 2010 |
+| **DTNP** | 0.7679 |1.9457| 0.2059 |  |  | | Info. Sci. | 2022 |
 | **JSEG** (in [UHIS_FEM])     | 0.7756 | 2.3217 | 0.1989 |  14.40  |               |                 |   TPAMI   | 2001 |
 | **SDTV**                     | 0.7758 | 1.8165 | 0.1768 |  16.24  |     0.57      |                 |   ICCV    | 2009 |
 | **UHIS_FEM**                 | 0.7769 | 2.3067 | 0.2215 |  10.66  |               |                 |    PR     | 2017 |
@@ -91,8 +94,9 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **HO-CC\*** | 0.8140 | 1.7430 |        | 10.3770 | 0.599 | 0.722 | TPAMI | 2014 |
 | **LFPA** | 0.8146 | 1.8545 | 0.1809 | 12.21 | 0.53 | | TPAMI | 2013 |
 | **TSESC** | 0.8205 | 1.9520 | 0.1998 | 12.09 | | | CVPR | 2011 |
-| **MME-IFODPSO** | 0.821 | 2.023 | 0.198 | 9.398 | | | JAIHC | 2020 |
+| **MME-IFODPSO** | 0.821 | 2.023 | 0.198 | 9.398 | | | JAIHC | 2021 |
 | **TPG** | 0.8227 | 1.7696 |        |         | | | CVPR | 2011 |
+| **Inpainting** | 0.83 |  | | 14.12 | | | IVCNZ | 2021 |
 | **ISM** | 0.83 | 2.16 | 0.1650 | 11.65 | | | MTA | 2016 |
 | **FSHA** | 0.83 | 1.71 |        |         | | | ICIAP | 2015 |
 | **SAS** | 0.8319 | 1.6849 | 0.1779 | 11.29 | 0.61 (in [SASFinal]) | | CVPR | 2012 |
@@ -118,13 +122,14 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **HTFCM** | 0.6745 |        | 0.4165 | 14.4682 | 0.3546 |  | PR | 2011 |
 | **HAFCM** | 0.7435 | | 0.2515 | 15.4481 | 0.442 | | ASC | 2013 |
 |**DSFCM_N**| 0.74 | 2.90 | 0.41 | | 0.42 | | TFS | 2019 |
-| **MSFCM**| 0.74 | 2.85 | 0.40 | | 0.43 | | TFS | 2020 |
+| **MSFCM**| 0.74 | 2.85 | 0.40 | | 0.43 | | TFS | 2021 |
 | **RFHA** | 0.7511 | | 0.235 | 14.3887 | 0.4224 | | ASC | 2013 |
 | **MNCut\***(in [LMS_GLA]) | 0.758 | 2.327 |  |  | 0.428 | 0.598 | CVPR | 2005 |
 | **FRFCM** | 0.76 | 2.67 | 0.37 | 12.35 | 0.45 | | TFS | 2018 |
 | **HS** | 0.76 | 2.39 | 0.26 | 14.03 |      | | IEICE-TIS  | 2020 |
 | **MMGR-AFCF** | 0.76 | 2.05 | 0.22 | 12.95 | 0.54 | | TFS | 2020 |
 | **AS-SR** | 0.763 | 3.804 |10.159|0.448|  | | JEI | 2017 |
+| **DTNP** | 0.7734 |1.9551| 0.2099 |  |  | | Info. Sci. | 2022 |
 | **HPCQ** | 0.7787 | | 0.2104 | 12.8726 | 0.5356 | | IET-IP | 2014 |
 | **RSFFCA**| 0.78 | 2.12 | 0.28 | | 0.52 | | TFS | 2020 |
 | **SFFCM**  | 0.78 | 2.06 |  0.26  |  12.8   |      0.54      | | TFS | 2019 |
@@ -142,7 +147,9 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **HO-CC\*** | 0.828 | 1.791 | | 9.770 | 0.595 | 0.73 | TPAMI | 2014 |
 | **CNIS**    | 0.828 | 1.695 | |       |       | 0.694 | MTA | 2019 |
 | **LRR(CH)** | 0.8295 | 1.7475 | |  | 0.5905 |  | ICCV | 2011 |
+| **FRSC** | 0.83 | 1.98 | 0.24 | 11.20 | 0.57 | | TFS | 2021 |
 | **MCG** | 0.83 | 1.57 |  |  | 0.61 | | TPAMI | 2017 |
+| **ASCQPHGS** | 0.8361| 1.8561 |0.2077 |8.3777|||Mathematics|2021|
 | **SAS** (in [ISCC])      | 0.84 | 1.71 | | | 0.6 | | CVPR | 2012 |
 | **AF-GRAPH** | 0.84| 1.67 | 0.18 | 13.63 |  | | TMM | 2021 |
 | **CCM** | 0.841 | 2.04 | 0.236 | 10.78 | | | ICIP | 2014 |
@@ -159,7 +166,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **Supervised-Ncut\*** (in [HO-CC]) | 0.601 | 3.101 |  | 13.498 | 0.287 |  | NIPS | 2009 |
 | **gPb-Hoiem\***  (in [HO-CC]) | 0.614 | 2.847 |  | 13.533 | 0.353 | | IJCV | 2007 |
 | **MNCut\*** (in [HO-CC]) | 0.628 | 2.765 |  | 11.941 | 0.341 |  | CVPR | 2005 |
-| **MSFCM**| 0.68 | 1.80 | 0.30 | | 0.57 | | TFS | 2020 | 
+| **MSFCM**| 0.68 | 1.80 | 0.30 | | 0.57 | | TFS | 2021 | 
 |**DSFCM_N**| 0.69 |1.91|0.32| | 0.54| | TFS | 2019 |
 | **FRFCM** | 0.71 | 1.79 | 0.3 | 12.23 | 0.58 | | TFS | 2018 |
 | **SuperParsing** (in [RIS-HL]) | 0.71 | 1.4 |      |        |        | | ECCV | 2010 |
@@ -167,6 +174,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **Meanshift\***  (in [HO-CC]) | 0.734 | 1.649 |  | 13.944 | 0.606 | | TPAMI | 2002 |
 | **RSFFCA**| 0.75 | 1.51 | 0.24 | | 0.64 | | TFS | 2020 |
 | **TBES**  (in [RIS-HL]) | 0.76 | 1.49 |  |  |  | | IJCV | 2011 |
+| **FRSC** | 0.76 | 1.45 | 0.22 | 10.80 | 0.65 | | TFS | 2021 |
 | **Corr-Cluster\*** | 0.773 | 1.648 |  | 9.194 | 0.632 |  | TIP | 2013 |
 | **gPb-owt-ucm\*** (in [HO-CC]) | 0.779 | 1.675 |  | 9.8 | 0.628 |  | TPAMI | 2011 |
 | **Joint-kernel** | 0.78 | 1.62 | |  |  |  | ACCV | 2012 |
@@ -244,12 +252,16 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[AASP-GRAPH]** Zhang, Y., et al. (2019).  "An adaptive affinity graph with subspace pursuit for natural image segmentation,"  **IEEE International Conference on Multimedia and Expo**: 802-807. [**[code]**](https://github.com/Yangzhangcst/AASP-Graph)
 - **[DSFCM_N]** Zhang, Y., et al. (2019).  “Deviation-Sparse fuzzy c-means with neighbor information constraint,” **IEEE Transactions on Fuzzy Systems** 27(1): 185-199. [**[code]**](https://github.com/zhangyuxuan1996/DSFCM_N)
 - **[CNIS]** Mourchid, Y., et al. (2019). "A general framework for complex network-based image segmentation." **Multimedia Tools and Applications** 78:20191–20216.
-- **[MMGR-AFCF]** Lei, T., et al. (2020). "Automatic Fuzzy Clustering Framework for Image Segmentation." **IEEE Transactions on Fuzzy Systems**. [**[code]**](https://github.com/jiaxhsust/Automatic-Fuzzy-Clustering-Framework-for-Image-Segmentation)
-- **[MSFCM]** Zhou, S., et al. (2020). “A new membership scaling fuzzy c-means clustering algorithm,” **IEEE Transactions on Fuzzy Systems**.
+- **[MMGR-AFCF]** Lei, T., et al. (2020). "Automatic Fuzzy Clustering Framework for Image Segmentation." **IEEE Transactions on Fuzzy Systems** 28(9): 2078-2092. [**[code]**](https://github.com/jiaxhsust/Automatic-Fuzzy-Clustering-Framework-for-Image-Segmentation)
 - **[RSFFCA]** Jia, X., et al. (2020). “Robust Self-Sparse Fuzzy Clustering for Image Segmentation,” **IEEE Access**. [**[code]**]( https://github.com/jiaxhsust/Robust-Self-Sparse-Fuzzy-Clustering-for-Image-Segmentation)
-- **[MME-IFODPSO]** Chakraborty, R., et al. (2020). “IFODPSO‑based multi‑level image segmentation scheme aided with Masi entropy,” **Journal of Ambient Intelligence and Humanized Computing**. 
 - **[HS]** Wu, C., et al. (2020). "Superpixel Based Hierarchical Segmentation for Color Image." **IEICE Transactions on Information and Systems** E103.D(10): 2246-2249.
+- **[MSFCM]** Zhou, S., et al. (2021). “A new membership scaling fuzzy c-means clustering algorithm,” **IEEE Transactions on Fuzzy Systems** 29(9): 2810 - 2818.
+- **[MME-IFODPSO]** Chakraborty, R., et al. (2021). “IFODPSO‑based multi‑level image segmentation scheme aided with Masi entropy,” **Journal of Ambient Intelligence and Humanized Computing**
+- **[Inpainting]** Bhugra, S., et al. (2021). "Unsupervised Learning of Affinity for Image Segmentation: An Inpainting based Approach." **International Conference on Image and Vision Computing New Zealand (IVCNZ)**.
+- **[ASCQPHGS]** Elaziz, M.A., et al. (2021). “Automatic Superpixel-Based Clustering for Color Image Segmentation Using q-Generalized Pareto Distribution under Linear Normalization and Hunger Games Search,” **Mathematics** 9: 2383.
 - **[AF-GRAPH]** Zhang, Y., et al. (2021).  "Affinity fusion graph-based framework for natural image segmentation,"  **IEEE Transactions on Multimedia**. [**[code]**](https://github.com/Yangzhangcst/AF-graph)
+- **[FRSC]** Lei, T., et al. (2021). "Fuzzy Student’s T-Distribution Model Based on Richer Spatial Combination,” **IEEE Transactions on Fuzzy Systems**.
+- **[DTNP]** Cai, T., et al. (2022). "An unsupervised segmentation method based on dynamic threshold neural P systems for color images," **Information Sciences** 587: 473–484.
 
 ##
 
