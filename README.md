@@ -241,7 +241,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[MCG]** Pont-Tuset, J., et al. (2017). "Multiscale combinatorial grouping for image segmentation and object proposal generation." **IEEE Transactions on Pattern Analysis and Machine Intelligence** 39(1): 128-140.
 - **[UHIS_FEM]** Yin, S., et al. (2017). "Unsupervised hierarchical image segmentation through fuzzy entropy maximization." **Pattern Recognition** 68: 245-259.
 - **[CDS]** Fu, X.,et al. (2017). "Image segmentation using contour, surface, and depth cues." **IEEE International Conference on Image Processing**: 81-85.
-- **[AS-SR]** Mahjoub, M. A., et al. (2017). "Adaptive strategy for superpixel-based region-growing image segmentation." Journal of Electronic Imaging 26(06).
+- **[AS-SR]** Mahjoub, M. A., et al. (2017). "Adaptive strategy for superpixel-based region-growing image segmentation." **Journal of Electronic Imaging** 26(06):1-24.
 - **[HVAA]** Lee, H. S. and Y. Hwan Kim (2018). Human visual attention analysis-based image segmentation using Color Histogram. **International SoC Design Conference (ISOCC)**: 76-77.
 - **[FRFCM]** Lei, T., et al. (2018). "Significantly fast and robust fuzzy C-means clustering algorithm based on morphological reconstruction and membership filtering." **IEEE Transactions on Fuzzy Systems** 26(5): 3027-3041. [**[code]**](https://github.com/jiaxhsust/Significantly-Fast-and-Robust-FCM-Based-on-Morphological-Reconstruction-and-Membership-Filtering)
 - **[H\_+R\_Better]** Li, K., et al. (2018). "Iterative image segmentation with feature driven heuristic four-color labeling." **Pattern Recognition** 76: 69-79.
@@ -259,6 +259,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[MME-IFODPSO]** Chakraborty, R., et al. (2021). “IFODPSO‑based multi‑level image segmentation scheme aided with Masi entropy,” **Journal of Ambient Intelligence and Humanized Computing**
 - **[Inpainting]** Bhugra, S., et al. (2021). "Unsupervised Learning of Affinity for Image Segmentation: An Inpainting based Approach." **International Conference on Image and Vision Computing New Zealand (IVCNZ)**.
 - **[ASCQPHGS]** Elaziz, M.A., et al. (2021). “Automatic Superpixel-Based Clustering for Color Image Segmentation Using q-Generalized Pareto Distribution under Linear Normalization and Hunger Games Search,” **Mathematics** 9: 2383.
+- **[LG(2)D]** Wang, T., et al. (2021). "Label group diffusion for image and image pair segmentation," **Pattern Recognition** 112:1-11.
 - **[AF-GRAPH]** Zhang, Y., et al. (2021).  "Affinity fusion graph-based framework for natural image segmentation,"  **IEEE Transactions on Multimedia**. [**[code]**](https://github.com/Yangzhangcst/AF-graph)
 - **[FRSC]** Lei, T., et al. (2021). "Fuzzy Student’s T-Distribution Model Based on Richer Spatial Combination,” **IEEE Transactions on Fuzzy Systems**.
 - **[DTNP]** Cai, T., et al. (2022). "An unsupervised segmentation method based on dynamic threshold neural P systems for color images," **Information Sciences** 587: 473–484.
