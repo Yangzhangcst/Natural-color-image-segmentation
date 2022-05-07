@@ -1,7 +1,7 @@
 # Natural/color image segmentation
 A paper list of unsupervised natural/color image segmentation.
 
-*Last updated: 2022/01/15
+*Last updated: 2022/05/05
 
 #### Update log
 *2020/March* - update all of recent papers and make some diagram about history of natural/color image segmentation.  
@@ -10,6 +10,7 @@ A paper list of unsupervised natural/color image segmentation.
 *2020/December* - update some recent papers and codes.  
 *2021/February* - update some recent papers and codes.   
 *2022/January* - update some recent papers and codes. 
+*2022/May* - update some recent papers and codes. 
 
 ##
 
@@ -263,6 +264,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[AF-GRAPH]** Zhang, Y., et al. (2021).  "Affinity fusion graph-based framework for natural image segmentation,"  **IEEE Transactions on Multimedia**. [**[code]**](https://github.com/Yangzhangcst/AF-graph)
 - **[FRSC]** Lei, T., et al. (2021). "Fuzzy Student’s T-Distribution Model Based on Richer Spatial Combination,” **IEEE Transactions on Fuzzy Systems**.
 - **[DTNP]** Cai, T., et al. (2022). "An unsupervised segmentation method based on dynamic threshold neural P systems for color images," **Information Sciences** 587: 473–484.
+- **[SNCMWG]** Ji, B., et al. (2022). An effective color image segmentation approach using superpixel- neutrosophic C-means clustering and gradient-structural similarity," **Optik** 
 
 ##
 
