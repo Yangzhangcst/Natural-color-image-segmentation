@@ -141,6 +141,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **SAS\*** (in [LMS_GLA]) | 0.801 | 1.917 |  |  | 0.525 | 0.643 | CVPR | 2012 |
 | **CCP\*** (in [LMS_GLA]) | 0.802 | 2.277 | | | 0.528 | 0.665 | ICCV | 2015 |
 | **LFPA\*** (in [LMS_GLA]) | 0.805 | 1.859 |  |  | 0.529 | 0.67 | TPAMI | 2013 |
+| **SCH-TRM**| 0.8054 | 2.221 | |11.1245| 0.5459| MTA| 2022|
 | **LMS_GLA\*** | 0.807 | 1.981 | | | 0.555 | 0.643 | TCSVT | 2017 |
 | **fPb-UCM\*** (in [LMS_GLA]) | 0.819 | 1.698 | | | 0.582 | 0.69 | TPAMI | 2013 |
 | **gPb-owt-ucm\***(in [HO-CC]) | 0.825 | 1.971 |  | 9.995 | 0.579 | 0.726 | TPAMI | 2011 |
@@ -158,7 +159,6 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **AMR** | 0.85 | 1.62 | | | 0.63 | | TIP | 2019 |
 | **MLAP** | 0.8538 | 1.5311 | | | 0.6411 | | ICCV | 2011 |
 | **ISCC** | 0.86 | 1.7 | | | 0.64 | | Neurocom. | 2016 |
-
 
 ### MSRC (\*test set)
 
@@ -264,8 +264,8 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[AF-GRAPH]** Zhang, Y., et al. (2021).  "Affinity fusion graph-based framework for natural image segmentation,"  **IEEE Transactions on Multimedia**. [**[code]**](https://github.com/Yangzhangcst/AF-graph)
 - **[FRSC]** Lei, T., et al. (2021). "Fuzzy Student’s T-Distribution Model Based on Richer Spatial Combination,” **IEEE Transactions on Fuzzy Systems**.
 - **[DTNP]** Cai, T., et al. (2022). "An unsupervised segmentation method based on dynamic threshold neural P systems for color images," **Information Sciences** 587: 473–484.
-- **[SNCMWG]** Ji, B., et al. (2022). An effective color image segmentation approach using superpixel- neutrosophic C-means clustering and gradient-structural similarity," **Optik** 
-
+- **[SNCMWG]** Ji, B., et al. (2022). "An effective color image segmentation approach using superpixel- neutrosophic C-means clustering and gradient-structural similarity," **Optik** 
+- **[SCH-TRM]** Lee, H., et al. (2022). "Spatial color histogram-based image segmentation using texture-aware region merging," **Multimedia Tools and Applications**
 ##
 
 ## Citing
