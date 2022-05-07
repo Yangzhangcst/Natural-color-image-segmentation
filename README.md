@@ -141,7 +141,7 @@ Speed  is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard t
 | **SAS\*** (in [LMS_GLA]) | 0.801 | 1.917 |  |  | 0.525 | 0.643 | CVPR | 2012 |
 | **CCP\*** (in [LMS_GLA]) | 0.802 | 2.277 | | | 0.528 | 0.665 | ICCV | 2015 |
 | **LFPA\*** (in [LMS_GLA]) | 0.805 | 1.859 |  |  | 0.529 | 0.67 | TPAMI | 2013 |
-| **SCH-TRM**| 0.8054 | 2.221 | |11.1245| 0.5459| MTA| 2022|
+| **SCH-TRM**| 0.8054 | 2.221 | |11.1245| 0.5459|| MTA| 2022|
 | **LMS_GLA\*** | 0.807 | 1.981 | | | 0.555 | 0.643 | TCSVT | 2017 |
 | **fPb-UCM\*** (in [LMS_GLA]) | 0.819 | 1.698 | | | 0.582 | 0.69 | TPAMI | 2013 |
 | **gPb-owt-ucm\***(in [HO-CC]) | 0.825 | 1.971 |  | 9.995 | 0.579 | 0.726 | TPAMI | 2011 |
