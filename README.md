@@ -9,7 +9,7 @@ A paper list of unsupervised natural/color image segmentation.
 *2020/August* - update some recent papers and codes.  
 *2020/December* - update some recent papers and codes.  
 *2021/February* - update some recent papers and codes.   
-*2022/January* - update some recent papers and codes. 
+*2022/January* - update some recent papers and codes.  
 *2022/May* - update some recent papers and codes. 
 
 ##
